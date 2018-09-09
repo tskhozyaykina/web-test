@@ -6,7 +6,7 @@ node {
         }
 
         stage('Run tests') {
-            sh './junit clean test'
+            sh './maven clean test'
         }
     } catch (ex) {
         echo "Caught: ${ex}"
