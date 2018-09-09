@@ -2,8 +2,6 @@
 *.iml
 target/
 allure*
-# Compiled class file
-*.class
 
 # Log file
 *.log
